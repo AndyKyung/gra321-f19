@@ -1,6 +1,7 @@
 /* stlyles for Project 5 */
 
 body {
+ background-color: azure;    
  font-family: proxima-nova, sans-serif;
  font-style: normal;
  font-weight: 400;
@@ -16,7 +17,7 @@ h1 {
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 body {
