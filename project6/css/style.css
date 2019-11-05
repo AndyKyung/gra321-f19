@@ -1,0 +1,176 @@
+body {
+    
+    background-color:antiquewhite;
+}
+
+.header {
+	width:100%;	
+	background-color:blanchedalmond;
+    height: 5rem;
+}
+
+.logo {
+	float: left;
+	margin: 1rem  1rem 0;
+	padding: 0;
+}
+
+.search_form {
+	float:right;
+	margin: 20;
+	padding: 3px;
+}
+
+.feature-image img {
+	width:100%;
+	margin:0px;
+}
+	
+.section-heading {
+    background-size: cover;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    margin: 1rem 0;
+    padding:5rem 0;
+    opacity:90%
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin:1rem 0;
+    background-color:#534741;
+}
+
+.hot {
+    background-image:url(../img/hot.jpg);
+}
+
+.ice {
+    background-image:url(../img/ice.jpg);
+}
+
+.special {
+    background-image:url(../img/special.jpg)
+}
+
+.food {
+    background-image: url(../img/food.jpg)
+}
+
+
+@media screen and (min-width:800px){
+    
+    .container{
+        width:47%;
+        float:right;
+        margin:1rem;
+    }
+    
+    .hot{
+        height:18rem;
+        width:50%;
+        float:left;        
+    }
+    
+    .ice{
+        height:18.2rem;
+        width:50%;
+        float:left;
+    }
+    
+    .food{
+        height:19rem;
+        float:left;
+        width:50%;
+    }
+    
+    .special{
+        height:;
+        float:left;
+                width:50%;
+
+    }
+    
+}
+
+h2 {
+    color:#534741;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  height: 8em;
+  margin-bottom: 1em;
+}
+
+.lcolumn1, .lcolumn2, .lcolumn3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  height: 13em;
+  margin-bottom: 1em;
+}
+
+h3 {
+    color:white;
+    font-size: 12pt;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+#footer {
+	background-color: antiquewhite;
+	padding:10px;
+	margin: 5px 0;
+	overflow: auto;
+	height: 170px;
+    width:100%;
+    font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	clear:both;
+}
+
+#footer2{
+	clear: both;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#footer ul{
+	padding: 0;
+	margin-top: 120px;
+	list-style: none;
+	text-decoration: none;
+}
+#footer li {
+	width: 16%;
+	padding:0;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+	
+#footer h1 {
+		font-size: 20px;
+		color: #000;
+	}
+	
+#footer p {
+		font-size: 14px;
+		color: #000;
+	}
+	
+.foot1, .foot2, .foot3 {
+		width: 31.3%;
+		float: left;
+        margin: 1%
+	}
